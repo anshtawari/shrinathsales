@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shrinath Sales Corporation | Authorized C.R.I. Dealer</title>
+    <link rel="stylesheet" href="style1.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+     
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav>
+        <div class="logo-section">
+            <img class="logo-img" src="logo.jpeg" alt="Shrinath Logo">
+            <div>
+                <div class="logo-text">Shrinath Sales Corporation</div>
+                <!-- <div class="logo-sub">Authorized C.R.I. Dealer</div> -->
+            </div>
+        </div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fa fa-bars"></i>
+        </div>
+        <div class="nav-links">
+            <a href="#">Home</a>
+            <a href="#products">Products</a>
+            <!-- <a href="#why-us">Why Us</a> -->
+            <a href="#contact">Contact</a>
+            <a href="#contact" class="nav-cta">Get a Call</a>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-badge">
+            <span class="hero-badge-dot"></span>
+            Central India's Trusted Dealer Since 2006
+        </div>
+        <h1>Water Solutions You<br>Can <em>Rely On.</em></h1>
+        <p>Authorized dealers for C.R.I. Pumps, Anchor Cables, Kisan Pipes &amp; Sanitary Fittings — serving
+            agriculture, homes, and industry across Central India.</p>
+        <div class="hero-btns">
+            <a href="#contact" class="btn-primary">Get a Free Quote</a>
+            <a href="#products" class="btn-outline">Explore Products</a>
+        </div>
+    </section>
+
+    <!-- STATS BAR -->
+    <!-- <div class="stats-bar">                                //disabled for now
+        <div class="stat-item">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Years of Trust</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">5000+</div>
+            <div class="stat-label">Happy Customers</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">10+</div>
+            <div class="stat-label">Premium Brands</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-number">24h</div>
+            <div class="stat-label">Quick Support</div>
+        </div>
+    </div> -->
+
+    <!-- TICKER -->
+    <div class="ticker-wrapper" aria-hidden="true">
+        <div class="ticker-inner" id="tickerTrack"></div>
+    </div>
+
+    <!-- PRODUCTS -->
+    <div class="section-header reveal" id="products">
+        <div class="section-tag">What We Offer</div>
+        <h2>Our Product Range</h2>
+        <p>High-performance products from India's most trusted brands, sourced and delivered with expertise.</p>
+    </div>
+
+    <div class="products-grid">
+        <div class="card reveal">
+            <div class="card-img" style="background-image: url(pumpset.jpg);">
+                <span class="card-badge">Authorized</span>
+            </div>
+            <div class="card-content">
+                <h3>C.R.I. Pump Sets</h3>
+                <p>Submersible, Monoblock, and Open-well pumps engineered for maximum efficiency and long service life.
+                </p>
+                <a href="#contact" class="card-link">Enquire Now →</a>
+            </div>
+        </div>
+        <div class="card reveal">
+            <div class="card-img" style="background-image: url(cableset.jpg);">
+                <span class="card-badge">Top Quality</span>
+            </div>
+            <div class="card-content">
+                <h3>Cables &amp; Wires</h3>
+                <p>Anchor and heavy-duty industrial cables for safe, reliable power distribution in any environment.</p>
+                <a href="#contact" class="card-link">Enquire Now →</a>
+            </div>
+        </div>
+        <div class="card reveal">
+            <div class="card-img" style="background-image: url(pipeset.jpg);">
+                <span class="card-badge">Premium</span>
+            </div>
+            <div class="card-content">
+                <h3>Pipes &amp; Fittings</h3>
+                <p>Premium Kisan pipes and sanitary solutions for residential and commercial plumbing projects.</p>
+                <a href="#contact" class="card-link">Enquire Now →</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- WHY US -->
+    <section class="why-us" id="why-us">
+        <div class="section-header reveal" style="padding-top:0; padding-bottom:0;">
+            <div class="section-tag">Why Choose Us</div>
+            <h2>The Shrinath Advantage</h2>
+            <p>Decades of expertise, genuine products, and unmatched after-sales support.</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-item reveal">
+                <div class="feature-icon">✅</div>
+                <h4>100% Genuine Products</h4>
+                <p>All products are sourced directly from authorized manufacturers — no counterfeits, no compromise.</p>
+            </div>
+            <div class="feature-item reveal">
+                <div class="feature-icon">🚚</div>
+                <h4>Fast Delivery</h4>
+                <p>Quick dispatch across Central India. We ensure your order reaches you without delays.</p>
+            </div>
+            <div class="feature-item reveal">
+                <div class="feature-icon">🔧</div>
+                <h4>Expert Guidance</h4>
+                <p>Our experienced team helps you choose the right product for your specific needs and budget.</p>
+            </div>
+            <div class="feature-item reveal">
+                <div class="feature-icon">🤝</div>
+                <h4>After-Sale Support</h4>
+                <p>We stand by every product we sell with dedicated after-sale service and warranty assistance.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact-section" id="contact">
+        <div class="contact-inner">
+            <div class="contact-info reveal">
+                <div class="section-tag"
+                    style="background:rgba(0,180,188,0.2); border-color:rgba(0,180,188,0.4); color:#7ff5f8;">Reach Out
+                </div>
+                <h2>Let's Find Your Perfect Solution</h2>
+                <p>Visit our showroom or send us your requirements — we'll get back to you with the best options and
+                    pricing.</p>
+                <div class="contact-details">
+                    <div class="contact-row">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-row-text">
+                            <strong>Address</strong>
+                            <span> H No. 110/31 Sanjay Market, G.E. road,Ganjpara, Durg– 491001</span>
+                        </div>
+                    </div>
+                    <div class="contact-row">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-row-text">
+                            <strong>Phone</strong>
+                            <span>+91 93290 93447</span>
+                        </div>
+                    </div>
+                    <div class="contact-row">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-row-text">
+                            <strong>Email</strong>
+                            <span>pktd2012@gmail.com</span>
+                        </div>
+                    </div>
+                    <div class="contact-row">
+                        <div class="contact-icon">🕒</div>
+                        <div class="contact-row-text">
+                            <strong>Working Hours</strong>
+                            <span>Mon – Sun: 9:00 AM – 8:30 PM</span>
+                        </div>
+                    </div>
+                    <div class="contact-row">
+                        <a class="button-section" href=" https://wa.me/919329093447">
+                            <button class="whatsapp-btn">
+                                <div class="whatsapp-icon"><i class="fa-brands fa-whatsapp"></i></div>
+                                <div class="whatsapp-txt">Whatsapp
+                            </button>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-card reveal">
+                <h3>Send an Inquiry</h3>
+                <form id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label>Your Name</label>
+                            <input type="text" placeholder="Ramesh Kumar" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Phone No.</label>
+                            <input type="tel" placeholder="+91 98765 43210" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label>Email (Optional)</label>
+                        <input type="email" placeholder="you@example.com">
+                    </div>
+                    <div class="form-group">
+                        <label>Product Interested In</label>
+                        <select>
+                            <option value="" disabled selected>Select a product…</option>
+                            <option>C.R.I. Pump Sets</option>
+                            <option>Cables &amp; Wires</option>
+                            <option>Pipes &amp; Fittings</option>
+                            <option>Sanitary Items</option>
+                            <option>Other / General Inquiry</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Message</label>
+                        <textarea placeholder="Tell us more about your requirement…"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn"
+                        onclick="window.open(' https://wa.me/919329093447', '_blank')">Send Inquiry →</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div>
+            <div class="footer-brand">Shrinath Sales Corporation</div>
+            <div style="margin-top:4px">© 2026 All Rights Reserved </div>
+        </div>
+        <div style="text-align:right">
+            <div><a href="mailto:xxxxxxx@gmail.com">pktd2012@gmail.com</a></div>
+            <div style="margin-top:4px">+91 93290 93447</div>
+        </div>
+    </footer>
+
+<script src="script1.js"></script>
+</body>
+
+</html>
